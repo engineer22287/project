@@ -1,0 +1,132 @@
+/* LandingPage.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.landing-page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  /* background: url("../assets/BgImage.jpg") no-repeat center center/cover; */
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0); /* Dark overlay for better text visibility */
+  z-index: -1;
+}
+
+.landing-header {
+  margin-top: 10vh;
+  padding: 20px;
+  color: white;
+}
+
+.landing-title {
+  font-size: 4rem; /* Larger font size for prominent heading */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.landing-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.landing-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #c9184a; /* Button color */
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.landing-button:hover {
+  background: #ff1a1a; /* Darker shade on hover */
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+.btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.4); /* Transparent background */
+  border: 1px solid rgba(255, 255, 255, 0.9); /* Light border */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  max-width: 300px;
+}
+
+.feature h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #c9184a;
+}
+
+.feature p {
+  font-size: 1rem;
+  color: white;
+}
+
+.cta {
+  margin-top: 20px;
+}
+.cta .cta-button {
+  margin-bottom: 15px;
+}
+
+.cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #c9184a; /* Button color */
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #ff1a1a; /* Darker shade on hover */
+}
